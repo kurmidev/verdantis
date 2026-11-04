@@ -1,0 +1,20 @@
+[
+  {
+    "item_id": "1001",
+    "item_description": "bearing",
+    "manufacturer": "SKF",
+    "manufacturer_part_number": "",
+    "category": "Mechanical",
+    "unit_of_measure": "EA",
+    "source_system": "ERP-A"
+  },
+  {
+    "item_id": "1002",
+    "item_description": "SKF Bearing 6205 ZZ",
+    "manufacturer": "SKF",
+    "manufacturer_part_number": "6205-ZZ",
+    "category": "Electrical",
+    "unit_of_measure": "EA",
+    "source_system": "ERP-B"
+  }
+]

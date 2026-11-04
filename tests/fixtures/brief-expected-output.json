@@ -1,0 +1,20 @@
+[
+  {
+    "item_id": "1001",
+    "issue_type": "missing_part_number",
+    "severity": "medium",
+    "confidence": 0.95,
+    "explanation": "Manufacturer is present but manufacturer part number is missing.",
+    "suggested_action": "Request manufacturer part number from the source owner.",
+    "source": "deterministic_rule"
+  },
+  {
+    "item_id": "1002",
+    "issue_type": "category_mismatch_candidate",
+    "severity": "low",
+    "confidence": 0.70,
+    "explanation": "Description suggests a mechanical bearing, but category is Electrical.",
+    "suggested_action": "Review category assignment before approval.",
+    "source": "ai_or_heuristic_candidate"
+  }
+]

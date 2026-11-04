@@ -1,0 +1,45 @@
+/* Design tokens (LLD 13 3.10, "Ledger", PROVISIONAL OQ-807). No palette is hard-coded in feature CSS. */
+:root {
+  --color-surface: oklch(97.5% 0.008 85);
+  --color-raised: oklch(99% 0.004 85);
+  --color-tint: oklch(94% 0.012 85);
+  --color-ink: oklch(20% 0.02 260);
+  --color-ink-soft: oklch(42% 0.02 260);
+  --color-action: oklch(42% 0.14 262);
+  --color-action-ink: oklch(98% 0.01 262);
+  --color-rule: oklch(86% 0.01 85);
+  --color-rule-strong: oklch(70% 0.015 85);
+  --color-sev-high: oklch(50% 0.19 32);
+  --color-sev-med: oklch(52% 0.11 75);
+  --color-sev-low: oklch(48% 0.07 200);
+  --color-danger: oklch(48% 0.18 28);
+  --color-ok: oklch(45% 0.1 155);
+  --color-selected: oklch(93% 0.03 262);
+
+  --font-ui: 'IBM Plex Sans', system-ui, sans-serif;
+  --font-display: 'Newsreader', Georgia, serif;
+  --font-mono: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+
+  --text-small: 0.8125rem;
+  --text-base: clamp(0.9rem, 0.86rem + 0.2vw, 1rem);
+  --text-title: clamp(1.6rem, 1.1rem + 2vw, 2.75rem);
+  --text-section: 0.75rem;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1.25rem;
+  --space-region: clamp(1.5rem, 1rem + 2.5vw, 3rem);
+
+  --radius-table: 0;
+  --radius-drawer: 2px;
+  --radius-dialog: 4px;
+  --radius-control: 2px;
+  --shadow-drawer: -12px 0 32px oklch(20% 0.02 260 / 0.14);
+  --shadow-dialog: 0 18px 48px oklch(20% 0.02 260 / 0.22);
+
+  --duration-fast: 150ms;
+  --duration-normal: 300ms;
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --focus-ring: 2px solid var(--color-action);
+}

@@ -1,0 +1,11 @@
+.upload { display: grid; gap: var(--space-3); max-width: 40rem; justify-items: start; }
+.dropzone { display: grid; gap: var(--space-1); width: 100%; padding: var(--space-region) var(--space-4); border: 2px dashed var(--color-rule-strong); background: var(--color-raised); cursor: pointer; transition: border-color var(--duration-fast) var(--ease-out-expo), background var(--duration-fast) var(--ease-out-expo); }
+.dropzone:hover, .dropzone.is-drag, .dropzone:focus-within { border-color: var(--color-action); background: var(--color-selected); }
+.dropzone-title { font: 500 1.5rem var(--font-display); overflow-wrap: anywhere; }
+.dropzone-hint { color: var(--color-ink-soft); }
+.facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr)); gap: var(--space-4); margin: var(--space-4) 0; border-top: 1px solid var(--color-rule); padding-top: var(--space-3); }
+.facts dt { font-size: var(--text-section); text-transform: uppercase; letter-spacing: 0.1em; color: var(--color-ink-soft); }
+.facts dd { font: 500 1.4rem var(--font-display); overflow-wrap: anywhere; }
+.counts { max-width: 28rem; }
+.counts li { display: flex; justify-content: space-between; padding: var(--space-2) 0; border-bottom: 1px solid var(--color-rule); }
+.actions { display: flex; flex-wrap: wrap; gap: var(--space-3); margin-top: var(--space-4); }

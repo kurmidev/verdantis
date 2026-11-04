@@ -1,0 +1,51 @@
+{
+  "name": "ui",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build && rm -f dist/mockServiceWorker.js",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "dev:mock": "VITE_USE_MOCKS=true vite",
+    "typecheck": "tsc -b",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "e2e": "playwright test"
+  },
+  "dependencies": {
+    "@fontsource/ibm-plex-sans": "^5.3.0",
+    "@fontsource/newsreader": "^5.3.0",
+    "@tanstack/react-query": "^5.105.3",
+    "@tanstack/react-table": "^8.21.3",
+    "@tanstack/react-virtual": "^3.14.26",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-router-dom": "^7.18.5",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
+    "@playwright/test": "^1.64.1",
+    "@testing-library/jest-dom": "^7.0.1",
+    "@testing-library/react": "^16.3.3",
+    "@testing-library/user-event": "^14.6.8",
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "@vitest/coverage-v8": "^5.1.0",
+    "jsdom": "^29.1.1",
+    "msw": "^3.0.3",
+    "oxlint": "^1.89.0",
+    "typescript": "~7.0.2",
+    "vite": "^8.3.5",
+    "vitest": "^5.1.0"
+  },
+  "msw": {
+    "workerDirectory": [
+      "public"
+    ]
+  }
+}
