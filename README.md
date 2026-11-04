@@ -18,7 +18,7 @@ Access is **open, no sign-in** (ADR-023). Run it only on a private network.
 | Steward UI (Vite + React + TypeScript) | `ui/` | Built against mocked API |
 | Review workflow (decisions, export), AI layer, RAG | n/a | Not started (phases P3, P5 to P7) |
 
-Architecture and design live in `docs/` (start at [docs/README.md](docs/README.md)); decisions are ADR-001..023 in [docs/project/ARCHITECTURE_DECISIONS.md](docs/project/ARCHITECTURE_DECISIONS.md). Architecture changes need an ADR first (see [CLAUDE.md](CLAUDE.md)).
+Architecture and design live in `docs/` (start at [docs/README.md](docs/README.md)); decisions are ADR-001..023 in [docs/project/ARCHITECTURE_DECISIONS.md](docs/project/ARCHITECTURE_DECISIONS.md). Architecture changes need an ADR first (see [CLAUDE.md](CLAUDE.md)). 
 
 ## 2. How to run or test it
 
